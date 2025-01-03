@@ -16,7 +16,7 @@ def get_env_variable(name: str, default=None, is_int=False):
 
 class Config:
     APP_ID = get_env_variable("APP_ID", 26649585, is_int=True)
-    API_HASH = get_env_variable("API_HASH", "588a3ea6fd01ae88bd2e10fed7d55b2c)
+    API_HASH = get_env_variable("API_HASH", "588a3ea6fd01ae88bd2e10fed7d55b2c")
     AUTH_USERS = get_env_variable("AUTH_USERS", "6052303737").split()
     BOT_TOKEN = get_env_variable("BOT_TOKEN", "7806927257:AAEwwyQ2RZVmCqsZVdIlR_znhcNa5ppZQ8k")
     BOT_START_TIME = time()
